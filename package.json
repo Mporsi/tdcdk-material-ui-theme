@@ -65,17 +65,8 @@
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "^6.1.11",
     "@svgr/webpack": "^5.5.0",
+    "chromatic": "^5.6.1",
     "react-scripts": "^4.0.1",
     "url-loader": "^4.1.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,ts,tsx}": [
-      "eslint . --fix"
-    ]
   }
 }
